@@ -9,8 +9,7 @@ public class ConsoleAdapterImpl implements ConsoleAdapter {
                 this.rectangleService = rectangleService;
             }
 
-   // public ConsoleAdapterImpl(RectangleService rectangleService) {
-   // }
+
 
     @Override
     public void run() {
