@@ -1,5 +1,6 @@
-# Hexagon-Ports-Adapters-
-Badanie architektury Hexagon (Ports &amp; Adapters)
+# Hexagon Ports & Adapters
+*Badanie architektury Hexagon (Ports &amp; Adapters) na laboratorium z Projektowania wielowarstwowych aplikacji internetowych*
+
 
 Projekt jest przykładem implementacji architektury hexagonalnej w aplikacji napisanej w języku Java.
 
