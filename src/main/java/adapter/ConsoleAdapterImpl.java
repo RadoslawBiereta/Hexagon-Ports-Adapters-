@@ -1,15 +1,15 @@
 package adapter;
 
+import domain.ConsolePort;
 import domain.RectangleService;
 import java.util.Scanner;
 
-public class ConsoleAdapterImpl implements ConsoleAdapter {
+public class ConsoleAdapterImpl implements ConsolePort {
     private final RectangleService rectangleService;
-            public ConsoleAdapterImpl(RectangleService rectangleService) {
-                this.rectangleService = rectangleService;
-            }
 
-
+    public ConsoleAdapterImpl(RectangleService rectangleService) {
+        this.rectangleService = rectangleService;
+    }
 
     @Override
     public void run() {
@@ -22,4 +22,3 @@ public class ConsoleAdapterImpl implements ConsoleAdapter {
         System.out.println("Pole prostokąta wynosi: " + area);
     }
 }
-

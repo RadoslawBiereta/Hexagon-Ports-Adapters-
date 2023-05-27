@@ -8,4 +8,3 @@ public class RectangleServiceImpl implements domain.RectangleService {
         return length * width;
     }
 }
-
